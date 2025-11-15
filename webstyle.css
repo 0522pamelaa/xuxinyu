@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "新細明體";
+}
+
+header {
+    background: #8e9196;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.hey {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.left-side,
+.right-side {
+    width: 48%;
+}
+
+
+
+.profile {
+    display: flex;
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.profile-info {
+    background: #c7caa0;
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.block {
+    background: #c7caa0;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.bar {
+    width: 100%;
+    height: 12px;
+    background: #c7caa0;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.bar div {
+    height: 100%;
+    background: #5b6d8c;
+    border-radius: 8px;
+}
+
+/* -------------------------- 右邊 nav -------------------------- */
+.right-side {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.experience-nav {
+    width: 100%;
+    background: #c7caa0;
+    padding: 20px;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.experience-nav h2 {
+    text-align: center;
+}
+
+.experience-nav a {
+    padding: 15px;
+    background: #a2b3d8;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.experience-nav a:hover {
+    background: #c7c7c7;
+}
+
+
+.bottom-articles {
+    width: 100%;
+    padding: 20px;
+}
+
+.exp-article {
+    background: #f7f7f7;
+    margin: 40px 0;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+
+.exp-img {
+    width: 330px;
+    border-radius: 12px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+
+.exp-img:hover {
+    transform: scale(1.08);
+}
+
+
+.dance-row {
+    display: flex;
+    gap: 20px;
+}
+
+
+.exp-p{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.exp-text {
+    max-width: 50%;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    background: black;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+}
